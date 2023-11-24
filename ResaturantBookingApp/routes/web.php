@@ -16,7 +16,24 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('welcome');
-});
+})->name('home');
+
+Route::get('/menu', function () {
+    return view('menu');
+})->name('menu');
+
+Route::get('/gallery', function () {
+    return view('gallery');
+})->name('gallery');
+
+Route::get('/contactus', function () {
+    return view('contactus');
+})->name('contactus');
+
+Route::get('/reservations', function () {
+    return view('reservations');
+})->name('reservations');
+
 
 Route::get('/dashboard', function () {
     return view('dashboard');
