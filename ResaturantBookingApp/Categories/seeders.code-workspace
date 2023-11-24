@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../seeders"
+		},
+		{
+			"path": "."
+		},
+		{
+			"path": "../menu"
+		}
+	]
+}
